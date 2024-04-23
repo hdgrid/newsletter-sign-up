@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <script defer src="javascript/script.js"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+</head>
+<body>
+
+
+  <div class="sign-up-form__wrapper">
+
+      <div class="sign-up-form__content-container">
+        <div class='sign-up-form__content'>
+          
+          <h1 class="sign-up-form__header">Stay updated!</h1>
+          <p class="sign-up-form__description">
+            Join 60,000+ product managers receiving monthly updates on:
+          </p>
+
+          <ul class="sign-up-form__newsletter-list">
+            <li>Product discovery and building what matters</li>
+            <li>Measuring to ensure updates are a success</li>
+            <li>And much more!</li>
+          </ul>
+
+          <form action="" method="post" class="sign-up-form__form">
+            <label class="sign-up-form__form-label" for="email">Email address</label>
+            <input class="sign-up-form__form-input" type="email" placeholder="email@company.com" required>
+            <input class="sign-up-form__form-submit" type="submit" 
+            value="Subscribe to monthly newletter">
+          </form>
+
+        </div>
+
+        <div class="sign-up-form__image">
+          <img class="sign-up-form__image--desktop" src="assets/images/illustration-sign-up-desktop.svg">
+          <img class="sign-up-form__image--mobile" src="assets/images/illustration-sign-up-mobile.svg">
+        </div>
+      </div>
+
+      <div class="sign-up-form__success">
+
+        <img class="sign-up-form__success-icon" src="assets/images/icon-success.svg">
+        <h1 class="sign-up-form__success-header">Thanks for subscribing!</h1>
+        <p class="sign-up-form__success-description">
+          A confirmation email has been sent to <span class="sign-up-form__success-email"></span>. 
+          Please open it and click the button inside 
+          to confirm your subscription.
+        </p>
+        <button class="sign-up-form__success-dismiss">Dismiss Message</button>
+
+      </div>
+    
+    </div>
+
+  </body>
+</html>
