@@ -1,6 +1,6 @@
-# Frontend Mentor - Article preview component solution
+# Frontend Mentor - Newsletter signup form solution
 
-This is a solution to the [Article preview component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv). 
+This is a solution to the [Newsletter signup form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv). 
 
 ## Table of contents
 
