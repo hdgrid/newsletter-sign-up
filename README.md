@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/hdgrid/article-preview-component)
-- Live Site URL: (https://hdgrid.github.io/article-preview-component)
+- Solution URL: (https://github.com/hdgrid/newsletter-sign-up)
+- Live Site URL: (https://hdgrid.github.io/newsletter-sign-up)
 
 ### Built with
 
